@@ -60,13 +60,15 @@
     transition: color 0.5s;
 }
 
-.section-1-ht > h1,p {
+/* section 1 */
+
+.section-1-ht  h1,p {
     background: -webkit-linear-gradient(45deg, #e0db95 , #dfd87f 30%, #dfd768 60%, #dfd555 80%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
 
-/* section 1 */
+
  
 .form-search .form-control {
     border:1px solid #d3c834;
@@ -104,4 +106,47 @@
 
 .cardindex .cardoutline .card .card-body {
     background: #796c7c;
+}
+
+/* section 3 */
+
+.section-3 .sec3-background {
+    width: 90%;
+    height: 20rem;
+    background: url('../asset/LAB.jpg');
+    background-position:center;
+    margin: 7.5rem 10vh 1rem 10vh;  
+    position: relative;
+    
+}
+
+.section-3 .sec3-headtext h1 {
+    background: -webkit-linear-gradient(45deg, #d3c834 , #6c3377 30%, #0ce265 60%, #0cb0e2 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: absolute;
+    top: -5rem;
+    text-align: center;     
+}
+
+.section-3 .sec3-subtext {
+    margin: 0rem 10vh 5rem 10vh; 
+}
+
+.section-3 .sec3-subtext .subtext {
+    color:#6c3377;  
+}
+
+/* footer */
+
+.foot-main {
+    background:#a97bb3;
+    padding-top: 2%;
+}
+
+.foot-main ul i {
+    padding: 0 5px 0 5px;
 }
